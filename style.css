@@ -160,3 +160,57 @@ body {
     border-style: none;
     border-radius: 8px;
 }
+
+.product {
+    display: flex;
+    height: 1200px;
+
+}
+
+.img-nm-prc {
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+    
+}
+
+.img-nm-prc p {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.d-tbl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+table {
+  
+}
+
+th, td {
+    border: 1px solid white;
+    
+}
+
+.btnss {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+#add-cart, #add-wish {
+    height: 60px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 8px;
+    width: 50%;
+    
+}
+
+#add-cart {
+    background-color: #ffa30e;
+}

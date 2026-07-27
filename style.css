@@ -183,8 +183,8 @@ body {
 .d-tbl {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 40px;
+    justify-content: flex-start;
+    
 }
 
 table {
@@ -213,4 +213,34 @@ th, td {
 
 #add-cart {
     background-color: #ffa30e;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+#star, #user1 {
+    height: 26px;
+    margin-right: 12px;
+}
+
+#rating-value, #num-reviews {
+    margin-right: 12px;
+    font-size: 28px;
+}
+
+#rating-value {
+    font-weight: bold;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.prof {
+    display: flex;
+    align-items: center;
 }

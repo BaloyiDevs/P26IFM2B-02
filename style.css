@@ -244,3 +244,8 @@ th, td {
     display: flex;
     align-items: center;
 }
+
+hr {
+    border: 0.5px solid white;
+    width: 1000px;
+}
